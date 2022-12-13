@@ -1,0 +1,32 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marianog02/_workshop.git"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "express",
+    "mysql"
+  ],
+  "author": "Mariano Geyne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianog02/_workshop/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
