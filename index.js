@@ -13,7 +13,7 @@ const login = require('./routes/login')
 const user = require('./routes/user')
 
 app.use(cors)
-app.use(morgan('dev'))
+app.use(morgan('prod'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
